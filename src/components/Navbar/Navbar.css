@@ -1,0 +1,22 @@
+.mainnav{
+    align-items: center;
+    padding: 1rem;
+}
+@media (max-width: 600px){
+    .inp{
+        display: none;
+        position: absolute;
+    }
+    .logo{
+        display: none;
+        position: absolute;
+    }
+    .acc{
+        display: none;
+        position: absolute;
+    }
+   .togglebt{
+    position: absolute;
+    right: 2rem;
+   }
+}

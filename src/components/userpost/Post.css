@@ -1,0 +1,40 @@
+.posts{
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-card{
+    height:27.25rem;
+}
+.location{
+    outline: none;
+    border: none;
+  border-bottom: 0.5px solid gray;
+  margin-bottom: 1rem;
+  width: 11rem ;
+  font-size: 1rem;
+}
+.posts-right{
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 0.5rem;
+    width: 19rem ;
+   padding-right: 2rem;
+}
+.loc{
+    color: gray;
+}
+
+@media (max-width: 600px) {
+    .posts-right{
+        display: none;
+        position: absolute;
+    }
+    .loca{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+  
+  }

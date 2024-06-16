@@ -1,0 +1,11 @@
+.tab{
+    color: gray;
+    font-weight: 600;
+}
+.tab :hover{
+    color: black;
+    transition: 0.2s;
+}
+.tabs{
+    font-size: 1rem;
+}
