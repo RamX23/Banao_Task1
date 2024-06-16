@@ -20,3 +20,21 @@
     right: 2rem;
    }
 }
+@media (max-width: 993px){
+    .inp{
+        display: none;
+        position: absolute;
+    }
+    .logo{
+        display: none;
+        position: absolute;
+    }
+    .acc{
+        display: none;
+        position: absolute;
+    }
+   .togglebt{
+    position: absolute;
+    right: 2rem;
+   }
+}
