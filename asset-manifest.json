@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Banao_Task1/static/css/main.0ae2d5b6.css",
+    "main.js": "/Banao_Task1/static/js/main.c603d013.js",
+    "static/js/453.c0fc4b95.chunk.js": "/Banao_Task1/static/js/453.c0fc4b95.chunk.js",
+    "static/media/prf3.jpeg": "/Banao_Task1/static/media/prf3.9cd1ac751ef1d6e1103b.jpeg",
+    "static/media/post3.jpeg": "/Banao_Task1/static/media/post3.2a790c4f9d4ecb54f1ea.jpeg",
+    "static/media/prf2.jpeg": "/Banao_Task1/static/media/prf2.a872aedffa3c6259db2c.jpeg",
+    "static/media/post1bg.jpeg": "/Banao_Task1/static/media/post1bg.1d01b5de3ffd559cc143.jpeg",
+    "static/media/post2.jpeg": "/Banao_Task1/static/media/post2.ca045a47cdd03b6cfc49.jpeg",
+    "static/media/prf4.jpeg": "/Banao_Task1/static/media/prf4.9e8539ece0a03fe0d1ae.jpeg",
+    "static/media/prf1.jpeg": "/Banao_Task1/static/media/prf1.8ff8003dcab591c658f4.jpeg",
+    "index.html": "/Banao_Task1/index.html",
+    "main.0ae2d5b6.css.map": "/Banao_Task1/static/css/main.0ae2d5b6.css.map",
+    "main.c603d013.js.map": "/Banao_Task1/static/js/main.c603d013.js.map",
+    "453.c0fc4b95.chunk.js.map": "/Banao_Task1/static/js/453.c0fc4b95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ae2d5b6.css",
+    "static/js/main.c603d013.js"
+  ]
+}
