@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Page-1" id="Z99IIkKWXr4IUzGCByrZ">
-    <mxGraphModel>
+    <mxGraphModel dx="906" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-1" value="Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NhjL-Q-qyRTkD1DAVS1f-1" target="NhjL-Q-qyRTkD1DAVS1f-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-3" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.033;exitY=0.627;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="606.04" y="238.81" as="sourcePoint" />
+            <mxPoint x="425" y="241.19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Signup process&lt;/font&gt;&lt;/b&gt;: first user response is accepted via form in ui firstly it is verified wheather al felds are filles and vallid if it is it will send a post req to server with all user inputs in req.body after accepting user input the backend will first check wheather the user already exists or not if not then it wil hash the password along with salting and will generate jwt based token&lt;div&gt;using bcrypt module and then server will query send mongo db query to insert all thsi credentials into db and will generate a response to user that user successfully signed in.&amp;nbsp;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-180" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-9" value="Username&amp;nbsp;&lt;div&gt;email&amp;nbsp;&lt;/div&gt;&lt;div&gt;pass,isAdmin&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-10" value="&lt;div style=&quot;text-align: center;&quot;&gt;post req sent to server using axios&amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="240" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.033;exitY=0.627;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341.03999999999996" y="228.81" as="sourcePoint" />
+            <mxPoint x="160" y="231.19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-12" value="Username&amp;nbsp;&lt;div&gt;email&amp;nbsp;&lt;/div&gt;&lt;div&gt;pass,isadmin&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-13" value="&lt;div style=&quot;text-align: center;&quot;&gt;newUser={username,email,hashed&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;_password}&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;newUser.save()&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="330" as="sourcePoint" />
+            <mxPoint x="650" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NhjL-Q-qyRTkD1DAVS1f-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="NhjL-Q-qyRTkD1DAVS1f-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="330" as="sourcePoint" />
+            <mxPoint x="410" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhjL-Q-qyRTkD1DAVS1f-18" value="&lt;div style=&quot;text-align: center;&quot;&gt;Res is sent from server along with token generted which will be stored in cookie storage as http only&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="330" width="150" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
